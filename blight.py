@@ -10,7 +10,7 @@ import random
 
 attemps = 0 
 os.system('clear')
-clear("""
+print("""
 \033[4m                                     █▒╗
                                             █▒║
   ███▒╗ ███▒╗╔███▒╗ ███▒╗  ████▒╗ ███▒║  ████▒╗ ███▒╗ █▒╗ █▒╗
