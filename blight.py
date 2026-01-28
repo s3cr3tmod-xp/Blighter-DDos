@@ -22,8 +22,6 @@ print("""
                                                           █▒║
                                                        ███▒═╝033[0m
 """)
-faded_text = fade.fire(logo)
-print(faded_text)
 if len(sys.argv) < 4:
     sys.exit("\033[96mUsage: python "+sys.argv[0]+" [ip] [port] [size]\033[0m")
 
