@@ -86,9 +86,7 @@ while True:
             sys.exit("Invalid Number Of Packets!")
         u = udp(ip,port,size,packets)
         u.start()
-        print("\033[48;5;7m\033[38;5;0m•> " +(ip)+ " \033[32mport\033[37m: \033[94m" +str(port)+ "\033[0m")
-        print("\033[38;5;7m•> " +(ip)+ "\033[32m\033[3msize \033[37m" +str(size)+ "") 
-        print("\033[33m\033[3m" +(ip)+ "\033[32mpacket \033[31m" +str(i)+ "") 
+        print(f"\033[38;5;220m| Protocol-serv | \034[38;5;37m" +(ip)+ " \033[38;5;111m" +str(bytes)+ "") 
     except KeyboardInterrupt:
         print ("Stopping Flood!")
         sys.exit()
