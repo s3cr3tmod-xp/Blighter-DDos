@@ -11,7 +11,7 @@ import random
 attemps = 0 
 os.system('clear')
 print("""
-\033[4m                                     █▒╗
+\033[96m                                     █▒╗
                                             █▒║
   ███▒╗ ███▒╗╔███▒╗ ███▒╗  ████▒╗ ███▒║  ████▒╗ ███▒╗ █▒╗ █▒╗
  █▒║ █▒║█▒║ █▒║ █▒║█▒║ █▒║█▒║    █▒║ █▒║█▒║ █▒║█▒║ █▒║█▒║ █▒║
@@ -86,7 +86,7 @@ while True:
             sys.exit("Invalid Number Of Packets!")
         u = udp(ip,port,size,packets)
         u.start()
-        print(f"\033[38;5;220mProtocol-serv \033[38;5;37m|" +(ip)+ "| \033[38;5;111m" +str(port)+ "") 
+        print(f"\033[38;5;220mProtocol-serv \033[38;5;37m| " +(ip)+ " | \033[38;5;111m" +str(packets)+ "") 
     except KeyboardInterrupt:
         print ("Stopping Flood!")
         sys.exit()
